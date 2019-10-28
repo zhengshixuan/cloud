@@ -3,7 +3,13 @@ server:
 eureka:
   client:
     service-url:
-      defaultZone: http://eureka7001:7001/eureka,http://eureka7002:7002/eureka
+      defaultZone: http://eureka7001:7001/eureka,http://eureka7002:7002/eureka,http://eureka7003:7003/eureka
+  instance:
+    instance-id: order_provider_8081 #微服务名
+    prefer-ip-address: true #访问时ip显示
 spring:
   application:
-    name: provider
+    name: order_provider
+info:
+  app.name: cloud
+  company.name: tianjian

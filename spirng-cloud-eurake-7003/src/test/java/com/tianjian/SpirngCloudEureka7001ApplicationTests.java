@@ -1,4 +1,4 @@
-package com.tianjian.cloud;
+package com.tianjian;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -7,7 +7,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class CloudApplicationTests {
+public class SpirngCloudEureka7001ApplicationTests {
 
 	@Test
 	public void contextLoads() {

@@ -10,13 +10,11 @@ import java.util.List;
  * @Author travel
  */
 @RestController
-@RequestMapping("/order")
 public class OrderController {
-
+    @RequestMapping("/list")
     public List<String> listOrders() {
         ArrayList<String> strings = new ArrayList<>();
         strings.add("111");
-        strings.add("222");
         return strings;
 
     }
