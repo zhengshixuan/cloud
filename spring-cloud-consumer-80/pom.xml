@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.tianjian</groupId>
-	<artifactId>spring-cloud-consumet-80</artifactId>
+	<artifactId>spring-cloud-consumer-80</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>spring-cloud-consumet-80</name>
+	<name>spring-cloud-consumer-80</name>
 	<description>Demo project for Spring Boot</description>
 
 	<properties>
@@ -28,6 +28,7 @@
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
 		</dependency>
+		<!--ribbon相关-->
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-netflix-ribbon</artifactId>
